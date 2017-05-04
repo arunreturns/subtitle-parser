@@ -1,0 +1,29 @@
+{
+  "name": "subtitle-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony Parser.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.0",
+    "cheerio": "^0.22.0",
+    "dateformat": "^2.0.0",
+    "decode-html": "^1.0.2",
+    "html-entities": "^1.2.1",
+    "imdb-api": "^2.2.2",
+    "mkdirp": "^0.5.1",
+    "opensubtitles-api": "^4.0.0-rc1",
+    "pad": "^1.1.0",
+    "tv-subs": "^0.2.2",
+    "unzip": "^0.1.11",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
